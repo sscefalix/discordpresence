@@ -1,15 +1,15 @@
 from presence import DiscordPresence, Button
 from time import sleep
 
-presence = DiscordPresence("1053209886898532362")
+presence = DiscordPresence("client_id")
 presence.connect()
 
 presence.update(
-    details="Я влюбился в неё..",
+    details="Пример",
     start=None,
     large_image="photo",
     buttons=[
-        Button(label='Иди нахуй', url="https://google.com")
+        Button(label="Пример", url="https://google.com")
     ]
 )
 
