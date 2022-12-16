@@ -14,7 +14,7 @@ setup_args = dict(
     author='sscefalix',
     author_email='dimabykov189@gmail.com',
     keywords=['Discord', 'DiscordPresence', 'Presence'],
-    url='https://github.com/ncthuc/elastictools',
+    url='https://github.com/sscefalix/discordpresence',
     download_url='https://pypi.org/project/discordpresence/',
     python_requires='>=3.8'
 )
